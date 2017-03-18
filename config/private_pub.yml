@@ -1,0 +1,7 @@
+production:
+  server: "https://udemy-rails-heroku-private-pub.herokuapp.com/faye" 
+
+#this is the address of this heroku app once you’ve deployed it, plus the `/faye` extension.
+
+  secret_token: XXXXX
+  signature_expiration: 3600 # one day
